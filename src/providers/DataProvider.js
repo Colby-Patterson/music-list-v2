@@ -8,11 +8,16 @@ const initialSongs = [
 
 const DataProvider = (props) => {
   const [songs, setSongs] = useState(initialSongs)
+
+  const addSong = (song)=>{
+    setSongs([song, ...songs])
+  }
   return (
     <>
       <DataContext.Provider
         value={{
-          songs
+          songs,
+          addSong
         }}
         >
         {props.children}

@@ -6,6 +6,7 @@ export default function Home() {
       <div className="navbar">
         <Link to="/">Welcome</Link>
         <Link to="/songlist">Songs</Link>
+        <Link to="/songform">Form</Link>
         <Link to="/about">About</Link>
       </div>
       <div className="outlet">
