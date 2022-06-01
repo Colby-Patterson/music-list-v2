@@ -1,4 +1,4 @@
-const Container = (props)=>{
+const MyContainer = (props)=>{
   return (
     <div>
       <h1>H1</h1>
@@ -7,4 +7,4 @@ const Container = (props)=>{
   )
 }
 
-export default Container
+export default MyContainer
