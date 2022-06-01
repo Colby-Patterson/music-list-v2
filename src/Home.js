@@ -5,6 +5,7 @@ export default function Home() {
     <div className="container">
       <div className="navbar">
         <Link to="/">Welcome</Link>
+        <Link to="/songlist">Songs</Link>
         <Link to="/about">About</Link>
       </div>
       <div className="outlet">
