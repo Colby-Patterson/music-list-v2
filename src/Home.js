@@ -11,6 +11,9 @@ export default function Home() {
       <div className="outlet">
         <Outlet />
       </div>
+      <div>
+        <p>Footer</p>
+      </div>
     </div>
   )
 }
