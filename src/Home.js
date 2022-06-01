@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="container">
       <div className="navbar">
-        <Link to="/">Link</Link>
+        <Link to="/">Welcome</Link>
       </div>
       <div className="outlet">
         <Outlet />
