@@ -12,12 +12,18 @@ const DataProvider = (props) => {
   const addSong = (song)=>{
     setSongs([song, ...songs])
   }
+
+  const deleteSong = (id)=>{
+    let newSongs = songs.filter((song)=> song.id !== id)
+    setSongs(newSongs)
+  }
   return (
     <>
       <DataContext.Provider
         value={{
           songs,
-          addSong
+          addSong,
+          deleteSong
         }}
         >
         {props.children}

@@ -7,6 +7,7 @@ export default function Song({id, songName, artist}){
     <div>
       <p>{songName}</p>
       <p>{artist}</p>
+      <button onClick={()=> data.deleteSong(id)}>Delete</button>
     </div>
   )
 }
